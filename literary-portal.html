@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Literature Sites</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      background: #f4f1eb;
+      color: #222;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 2rem;
+      color: #3b2f1e;
+      margin-bottom: 36px;
+      letter-spacing: 0.03em;
+    }
+
+    .cards {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 32px 36px;
+      width: 220px;
+      text-align: center;
+      text-decoration: none;
+      color: inherit;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+
+    .card:hover {
+      box-shadow: 0 6px 20px rgba(0,0,0,0.13);
+      transform: translateY(-3px);
+    }
+
+    .card .flag {
+      font-size: 2.5rem;
+      margin-bottom: 12px;
+    }
+
+    .card .lang {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #888;
+      margin-bottom: 8px;
+    }
+
+    .card .name {
+      font-size: 1.2rem;
+      color: #3b2f1e;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    .card .url {
+      font-size: 0.8rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Literature Sites</h1>
+
+  <div class="cards">
+
+    <a class="card" href="https://poets.org/poems" target="_blank">
+      <div class="flag">🇺🇸</div>
+      <div class="lang">English</div>
+      <div class="name">Poets.org</div>
+      <div class="url">poets.org/poems</div>
+    </a>
+
+    <a class="card" href="https://hindi-kavita.com/" target="_blank">
+      <div class="flag">🇮🇳</div>
+      <div class="lang">Hindi — हिंदी</div>
+      <div class="name">Hindi Kavita</div>
+      <div class="url">hindi-kavita.com</div>
+    </a>
+
+  </div>
+
+</body>
+</html>
